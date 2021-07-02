@@ -1,0 +1,89 @@
+body{
+    background-color: thistle;
+    color: firebrick;
+    font-family: 'Arial',Sans-Serif;
+    font-size: 14px;
+  }
+  #container
+  {
+    width:60%;
+    background:tan;
+    margin:20px auto;
+    overflow:auto;
+    padding:25px;
+   
+  }
+  header{
+    text-align:center;
+    border-bottom: firebrick dashed 1px;
+  }
+  header h1{
+    margin: 0;
+    padding:0;
+  }
+  section {
+    min-height:800px;
+    
+    }
+#quiz_box{
+padding:20px 15px 20px 20px;
+    }
+#quiz_box .que_text{
+font-size:20px;
+font-weight:600px;
+}
+#quiz_box .option_list{
+        padding:10px 0;
+        display:flex;
+        flex-direction:row;
+     justify-content:space-between;
+     
+    }
+#quiz_box .option{
+background-color: aliceblue;
+border: 1px solid #84c5fe;
+border-radius: 10px;
+padding:10px;
+width:20%;
+margin-bottom:10px;
+align-items:center;
+text-align:center;
+font-size:17px;
+transition: all 0.3s ease;
+cursor:pointer;
+}
+#quiz_box .option_list .option:hover{
+color:white;
+background-color: green;
+border-color:green;
+}
+button{
+    background-color: aliceblue;
+    border:1px solid #84c5fe;;
+    color:firebrick;
+     float:right;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-weight:600;
+    cursor:pointer;
+    right:-20%;
+    border-radius:5px;
+    padding:10px;
+    width:18%;
+}
+button:hover{
+    background-color: green;
+    color:white;
+    border-color:green;
+}
+#results h3{
+  background: thistle;
+  padding:10px;
+  margin:10px 0;
+}
+#results span{
+  color:black;
+  font-weight:bold;
+}
+   

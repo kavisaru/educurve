@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Simple Science Quiz</title>
+    <link rel="stylesheet" href="style-1.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Simple Science Quiz</h1>
+        <!--<p>Test Your Knowledge in <strong>JavaScript Fundamentals</strong></p>-->
+      </header>
+      <section>
+          <div id="results"></div>
+          <div id="quiz_box">
+          <div class="que_text">
+              <span>1.The colour of the eye depends upon the pigment present inside?</span>
+          </div>
+          <div class="option_list">
+              <div class="option" id="question1_option1" onclick="reply_click(this)">
+                  <span>Cornea</span>
+                 </div>
+                 <div class="option" id="question1_option2" onclick="reply_click(this)">
+                    <span>Iris</span>
+                   </div>
+                   <div class="option" id="question1_option3" onclick="reply_click(this)">
+                    <span>Rods</span>
+                   </div>
+                   <div class="option" id="question1_option4" onclick="reply_click(this)">
+                    <span>Cones</span>
+                   </div>
+          </div>
+          <div class="que_text">
+            <span>2.The vitamin most readily destroyed by heat is?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question2_option1" onclick="reply_click(this)">
+                <span>Riboflavin</span>
+               </div>
+               <div class="option" id="question2_option2" onclick="reply_click(this)">
+                  <span>Ascorbic acid</span>
+                 </div>
+                 <div class="option" id="question2_option3" onclick="reply_click(this)">
+                  <span>Tocopherol</span>
+                 </div>
+                 <div class="option" id="question2_option4" onclick="reply_click(this)">
+                  <span>thiamine</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>3.Which one of the following is not a vaccine?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question3_option1" onclick="reply_click(this)">
+                <span>BCG</span>
+               </div>
+               <div class="option" id="question3_option2" onclick="reply_click(this)">
+                  <span>Anti-rabies</span>
+                 </div>
+                 <div class="option" id="question3_option3" onclick="reply_click(this)">
+                  <span>Polio vaccine</span>
+                 </div>
+                 <div class="option" id="question3_option4" onclick="reply_click(this)">
+                  <span>Progesterone</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>4.In which of the following substances all carbon atoms are quaternary in nature?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question4_option1" onclick="reply_click(this)">
+                <span>Graphite</span>
+               </div>
+               <div class="option" id="question4_option2" onclick="reply_click(this)">
+                  <span>Diamond</span>
+                 </div>
+                 <div class="option" id="question4_option3" onclick="reply_click(this)">
+                  <span>Teflon</span>
+                 </div>
+                 <div class="option" id="question4_option4" onclick="reply_click(this)">
+                  <span>Naphthalene</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>5.The ration of pure gold in 18-carat gold is?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question5_option1" onclick="reply_click(this)">
+                <span>60%</span>
+               </div>
+               <div class="option" id="question5_option2" onclick="reply_click(this)">
+                  <span>75%</span>
+                 </div>
+                 <div class="option" id="question5_option3" onclick="reply_click(this)">
+                  <span>80%</span>
+                 </div>
+                 <div class="option" id="question5_option4" onclick="reply_click(this)">
+                  <span>90%</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>6.An instrument for measuring blood pressure is called?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question6_option1" onclick="reply_click(this)">
+                <span>Barometer</span>
+               </div>
+               <div class="option" id="question6_option2" onclick="reply_click(this)">
+                  <span>Spirometer</span>
+                 </div>
+                 <div class="option" id="question6_option3" onclick="reply_click(this)">
+                  <span>Sphygnomanometer</span>
+                 </div>
+                 <div class="option" id="question6_option4" onclick="reply_click(this)">
+                  <span>Haemocytometer</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>7.The number of chromosomes present in a normal human being is?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question7_option1" onclick="reply_click(this)">
+                <span>23</span>
+               </div>
+               <div class="option" id="question7_option2" onclick="reply_click(this)">
+                  <span>46</span>
+                 </div>
+                 <div class="option" id="question7_option3" onclick="reply_click(this)">
+                  <span>22</span>
+                 </div>
+                 <div class="option" id="question7_option4" onclick="reply_click(this)">
+                  <span>48</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>8.The locomotory organ of Amoeba is?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question8_option1" onclick="reply_click(this)">
+                <span>Pseudopodia</span>
+               </div>
+               <div class="option" id="question8_option2" onclick="reply_click(this)">
+                  <span>Parapodia</span>
+                 </div>
+                 <div class="option" id="question8_option3" onclick="reply_click(this)">
+                  <span>Flagella</span>
+                 </div>
+                 <div class="option" id="question8_option4" onclick="reply_click(this)">
+                  <span>Cilia</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>9.The disease that is caused by the virus is?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question9_option1" onclick="reply_click(this)">
+                <span>Typhoid</span>
+               </div>
+               <div class="option" id="question9_option2" onclick="reply_click(this)">
+                  <span>Cholera</span>
+                 </div>
+                 <div class="option" id="question9_option3" onclick="reply_click(this)">
+                  <span>Common Cold</span>
+                 </div>
+                 <div class="option" id="question9_option4" onclick="reply_click(this)">
+                  <span>Tetanus</span>
+                 </div>
+        </div>
+        <div class="que_text">
+            <span>10.The mass of a star is two times the mass of the sun.How will it come to an end?</span>
+        </div>
+        <div class="option_list">
+            <div class="option" id="question10_option1" onclick="reply_click(this)">
+                <span>Neutron Star</span>
+               </div>
+               <div class="option" id="question10_option2" onclick="reply_click(this)">
+                  <span>Blackhole</span>
+                 </div>
+                 <div class="option" id="question10_option3" onclick="reply_click(this)">
+                  <span>White Dwarf</span>
+                 </div>
+                 <div class="option" id="question10_option4" onclick="reply_click(this)">
+                  <span>Red Giant</span>
+                 </div>
+        </div>
+        </div>
+       </section>
+       <button type="button" id="submit" onclick="calculateScore()">Submit</button>
+</div>
+
+
+
+
+</body></html>
